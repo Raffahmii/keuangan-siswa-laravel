@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes pulse-slow {
+    0%, 100% { opacity: 0.1; }
+    50% { opacity: 0.2; }
+}
+.animate-pulse-slow {
+    animation: pulse-slow 4s infinite;
+}
+.animation-delay-2000 {
+    animation-delay: 2s;
+}
